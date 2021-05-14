@@ -15,3 +15,15 @@ function addConstant(n) {
   return total;
 }
 console.log(addConstant(100000));
+
+// O(n²) Quadratic
+function addQuadratic(n) {
+  let total = 0;
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= n; j++) {
+      total += j;
+    }
+  }
+  return total;
+}
+console.log(addQuadratic(1000));
