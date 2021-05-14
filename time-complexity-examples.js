@@ -44,3 +44,8 @@ console.log(addQuadratic(1000));
 // O(n + 10)         = O(n)
 // O(100)            = O(1)
 // O(n^2 + 10n + 8)  = O(n^2)
+
+// These count as constants:
+// 1. Arithmetic operations
+// 2. Assignment operations
+// 3. Accessing elements in an array by index or object by key
