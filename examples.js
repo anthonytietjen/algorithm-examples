@@ -7,3 +7,11 @@ function addLinear(n) {
   return total;
 }
 console.log(addLinear(100000));
+
+
+// O(1) - Constant
+function addConstant(n) {
+  let total = (n * (n + 1)) / 2;
+  return total;
+}
+console.log(addConstant(100000));
