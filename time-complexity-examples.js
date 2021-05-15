@@ -39,3 +39,5 @@ console.log(addQuadratic(1000));
 // 1. Arithmetic operations
 // 2. Assignment operations
 // 3. Accessing elements in an array by index or object by key
+
+// Logarithm is the inverse of exponentiation
