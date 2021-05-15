@@ -5,9 +5,9 @@
 // Indexes or Objects require (n) space (n is the array length or object key count)
 
 // O(1) - Constant
-function sum(arr){
+function sum(arr) {
   let total = 0;
-  for(let i=0; i< Array.length; i++){
+  for (let i = 0; i < Array.length; i++) {
     total += arr[i];
   }
   return total;
@@ -16,7 +16,7 @@ function sum(arr){
 // O(n) - Linear
 function double(arr) {
   let newArr = [];
-  for(let i=0; i<arr.length; i++){
+  for (let i = 0; i < arr.length; i++) {
     newArr.push(2 * arr[i]);
   }
   return newArr;
