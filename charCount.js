@@ -12,3 +12,7 @@ function charCount(str) {
 console.log(JSON.stringify(charCount('abc')) === JSON.stringify({ a: 1, b: 1, c: 1 }))
 console.log(JSON.stringify(charCount('Abc')) === JSON.stringify({ a: 1, b: 1, c: 1 }))
 console.log(JSON.stringify(charCount('A b c')) === JSON.stringify({ a: 1, b: 1, c: 1 }))
+
+module.exports = {
+  charCount
+}

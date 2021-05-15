@@ -25,6 +25,6 @@ function isAlphaNumeric(char) {
   );
 }
 
-console.log(JSON.stringify(charCount2('abc')) === JSON.stringify({ a: 1, b: 1, c: 1 }))
-console.log(JSON.stringify(charCount2('Abc')) === JSON.stringify({ a: 1, b: 1, c: 1 }))
-console.log(JSON.stringify(charCount2('A b c')) === JSON.stringify({ a: 1, b: 1, c: 1 }))
+module.exports = {
+  charCount2
+}
