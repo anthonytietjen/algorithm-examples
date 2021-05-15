@@ -1,8 +1,6 @@
+// Time complexity: How can we anlayze the runtime of an agorithm as the size of the inputs increase
+
 // O(n)  - Linear
-// |         /
-// |      /    
-// |   /
-// |/___________
 function addLinear(n) {
   let total = 0;
   for (let i = 1; i <= n; i++) {
@@ -14,10 +12,6 @@ console.log(addLinear(100000));
 
 
 // O(1) - Constant
-// |
-// |
-// |-----------
-// |___________
 function addConstant(n) {
   let total = (n * (n + 1)) / 2;
   return total;
@@ -25,10 +19,6 @@ function addConstant(n) {
 console.log(addConstant(100000));
 
 // O(n^2) Quadratic
-// |  |
-// |  /   
-// | / 
-// |/__________
 function addQuadratic(n) {
   let total = 0;
   for (let i = 1; i <= n; i++) {
