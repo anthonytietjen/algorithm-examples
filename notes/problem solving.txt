@@ -1,0 +1,28 @@
+Understand the problem
+  Resate the problem in own words
+    "Create a function that returns the count of characters in a string"
+  Define the inputs
+    "Are these integers? Floats? Doubles?"
+  Define the outputs
+    "Should it only return an object? Or undefined? null?"
+  How to label the important pieces of data
+    "num1, num2, counts"
+
+Explore concrete examples
+  countChars("hello")  // {h: 1, e: 1, l: 2, o: 1}
+  countChars("Hh")     // {h: 2}
+  countChars()         // ???
+
+Break it down
+  function countChars(str){
+    // create an object to return at end
+    // lowercase the string
+    // loop the characters
+      // if the character exists, increment it by 1
+      // otherwise insert it and set it to 1
+    // return object
+  }
+
+Solve/Simplify
+
+Look back and refactor
