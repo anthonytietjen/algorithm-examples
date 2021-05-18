@@ -9,7 +9,8 @@
     "mocha": "^8.4.0"
   },
   "scripts": {
-    "test": "mocha ./src/**/*.test.js"
+    "test": "mocha ./src/**/*.test.js",
+    "test-watch": "mocha ./src/**/*.test.js --watch"
   },
   "repository": {
     "type": "git",
