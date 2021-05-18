@@ -1,3 +1,4 @@
+// Time complexity: O(log n)
 function binarySearch(haystack, needle) {
   let left = 0;
   let right = haystack.length - 1;
