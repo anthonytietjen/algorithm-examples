@@ -1,5 +1,7 @@
 // Selection Sort. Select the smallest in the array and move it to the beginning
+// Potentially better than Bubble Sort because you can minimize the number of swaps
 
+// Time complexity: O(n^2)
 function selectionSort(arr) {
   let temp;
 
