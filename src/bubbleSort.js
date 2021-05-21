@@ -1,7 +1,7 @@
 // Buble Sort (large values bubble to the top)
 // or Sinking Sort (small values sink to the bottom)
 
-// Time complexity: O(n ^ 2)
+// Time complexity: O(n^2)
 function bubbleSort(arr) {
   let didSwap;
   // Iterate from the end of the array to the beginning
