@@ -1,6 +1,13 @@
 // Time complexity: How can we anlayze the runtime of an agorithm as the size of the inputs increase
 
-// O(n)  - Linear
+// O(1) - Constant - Big 0 of 1
+function addConstant(n) {
+  let total = (n * (n + 1)) / 2;
+  return total;
+}
+console.log(addConstant(100000));
+
+// O(n) - Linear - Big O of n
 function addLinear(n) {
   let total = 0;
   for (let i = 1; i <= n; i++) {
@@ -9,14 +16,6 @@ function addLinear(n) {
   return total;
 }
 console.log(addLinear(100000));
-
-
-// O(1) - Constant
-function addConstant(n) {
-  let total = (n * (n + 1)) / 2;
-  return total;
-}
-console.log(addConstant(100000));
 
 // O(n^2) Quadratic
 function addQuadratic(n) {

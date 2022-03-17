@@ -20,7 +20,6 @@ function reverseSwap(arr) {
   let temp;
   let right = arr.length - 1;
   for (let i = 0; i <= right; i++) {
-    console.log(arr);
     swap(i, right);
     right--;
   }
