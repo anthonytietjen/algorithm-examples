@@ -22,7 +22,7 @@
 // |  -------- 
 // |/__________
 
-// O(nlog n) Logarithmic
+// O(nlog n) Linearithmic / Quasilinear
 // |   |
 // |  /   
 // | | 
